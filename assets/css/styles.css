@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --main-color: #2d6efd;
+  --light-color: rgb(224, 84, 84);
+  --whate-color: #ffff;
+  --text-color: #23282d;
+  --text-color-light: #727272;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #2d6ffd79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--whate-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.main {
+  max-width: 996px;
+  max-height: 792px;
+  transition: all 0.5s ease-in-out;
+  background: #ffff;
+  border: 1px;
+  border: 5px solid #2d6efd;
+  border-radius: 12px;
+  background-color: #ffff;
+  box-sizing: border-box !important;
+  box-shadow: #2d6ffdbe 1.95px 1.95px 2.6px;
+}
+.main .header-top {
+  display: flex;
+  border-bottom: 5px solid #2d6efd;
+  padding: 15px 0;
+}
+.main .header-top .header-top-text {
+  width: 378px;
+  color: var(--text-color);
+  padding: 5px 26px;
+  margin: 0;
+}
+.main .header-top .header-row {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.main .header-top .header-row hr {
+  background: #2d6efd;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 10px;
+  opacity: 1;
+}
+
+.registration-form {
+  width: 70%;
+  margin: auto;
+}
+.registration-form h3 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.registration-form .form-control,
+.registration-form .form-select {
+  border-radius: 24px;
+  padding-left: 20px;
+  width: 290px;
+  height: 50px;
+  border-color: #2d6efd;
+  box-shadow: #2d6ffdbe 1.95px 1.95px 2.6px;
+  color: var(--text-color-light);
+}
+
+.form-check-main {
+  padding: 15px 0;
+  width: 404px;
+  margin: auto;
+}
+.form-check-main .form-check-label {
+  color: var(--text-color-light);
+  margin-left: 10px;
+}
+.form-check-main .form-check-label a {
+  color: var(--main-color);
+}
+.form-check-main p {
+  color: var(--text-color-light);
+  text-align: center;
+}
+.form-check-main p a {
+  color: var(--text-color-light);
+}
+
+.form-check .form-check-input {
+  float: none;
+}
+
+.sign-in-btn {
+  width: 290px;
+  margin: auto;
+}
+.sign-in-btn .sub-btn {
+  border-radius: 20px;
+  padding: 12px 0;
+  font-weight: 600;
+  color: var(--whate-color);
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.logo-area p {
+  font-size: 14px;
+}
+.logo-area p a {
+  text-decoration: none;
+}
+.logo-area p a span {
+  font-weight: 600;
+  color: var(--text-color);
+}
+.logo-area svg {
+  margin-left: 10px;
+  position: relative;
+  top: -6px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,112 @@
+.main {
+  max-width: 996px;
+  max-height: 792px;
+  transition: all 0.5s ease-in-out;
+  background: $mainsec-color;
+  border: 1px;
+  border: 5px solid $border-color;
+  border-radius: 12px;
+  background-color: $mainsec-color;
+  box-sizing: border-box !important;
+  box-shadow: $shadow;
+  .header-top {
+    display: flex;
+    border-bottom: 5px solid $border-color;
+    padding: 15px 0;
+    .header-top-text {
+      width: 378px;
+      color: var(--text-color);
+      padding: 5px 26px;
+      margin: 0;
+    }
+    .header-row {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      hr {
+        background: $border-color;
+        height: 5px;
+        border: none;
+        border-radius: 10px;
+        margin: 0 10px;
+        opacity: 1;
+      }
+    }
+  }
+}
+.registration-form {
+  width: 70%;
+  margin: auto;
+  h3 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  // form radias
+  .form-control,
+  .form-select {
+    border-radius: 24px;
+    padding-left: 20px;
+    width: 290px;
+    height: 50px;
+    border-color: $border-color;
+    box-shadow: $shadow;
+    color: var(--text-color-light);
+  }
+}
+.form-check-main {
+  padding: 15px 0;
+  width: 404px;
+  margin: auto;
+  .form-check-label {
+    color: var(--text-color-light);
+    margin-left: 10px;
+    a {
+      color: var(--main-color);
+    }
+  }
+  p {
+    color: var(--text-color-light);
+    text-align: center;
+    a {
+      color: var(--text-color-light);
+    }
+  }
+}
+.form-check .form-check-input {
+  float: none;
+}
+.sign-in-btn {
+  width: 290px;
+  margin: auto;
+  .sub-btn {
+    border-radius: 20px;
+    padding: 12px 0;
+    font-weight: 600;
+    color: var(--whate-color);
+  }
+}
+.logo-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+
+  p {
+    font-size: 14px;
+    a {
+      text-decoration: none;
+      span {
+        font-weight: 600;
+        color: var(--text-color);
+      }
+    }
+  }
+
+  svg {
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+  }
+}

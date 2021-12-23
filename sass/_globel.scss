@@ -1,0 +1,65 @@
+// ===========fontfamily=========
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+// ==========Variable===========
+// #color
+// #B3C100
+// #CED2CC
+// #23282D
+// #4CB5F5
+// #1F3F49
+// #D32D41
+// #6AB187
+
+// sass variable
+$body-color: #2d6ffd79;
+$mainsec-color: #ffff;
+$shadow: #2d6ffdbe 1.95px 1.95px 2.6px;
+$border-color: #2d6efd;
+
+// root variable
+:root {
+  --main-color: #2d6efd;
+  --light-color: rgb(224, 84, 84);
+  --whate-color: #ffff;
+  --text-color: #23282d;
+  --text-color-light: #727272;
+}
+
+// grobel
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: $body-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+//custrom Scrollbar
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--whate-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--text-color);
+}
